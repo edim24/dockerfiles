@@ -4,7 +4,7 @@ FROM php:7.1-fpm
 ENV PHALCON_VERSION 3.2.1
 
 RUN cd /tmp \
-    && apt-get update
+    && apt-get update \
 	&& apt-get install -y \
 		git \
 		zip unzip php-pclzip \
